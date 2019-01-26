@@ -47,4 +47,9 @@ public class GameManager : MonoBehaviour
         this.currentScene = scene;
         UnityEngine.SceneManagement.SceneManager.LoadScene(currentScene);
     }
+
+    public void NewGame()
+    {
+        this.LoadScene("Kitchen");
+    }
 }
