@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    /* Statics */
     private static GameManager manager = null;
     public static GameManager Manager
     {
@@ -11,6 +12,9 @@ public class GameManager : MonoBehaviour
             return GameManager.manager;
         }
     }
+
+    /* Properties */
+    private int money;
 
     public string currentScene = "";
     bool soundOn = true;
