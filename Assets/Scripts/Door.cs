@@ -4,20 +4,10 @@ using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public string destinyScene;
 
     private void  OnMouseDown() 
     {
-        GameManager.Manager.LoadScene("kitchen");
+        GameManager.Manager.LoadScene(this.destinyScene);
     }
 }
