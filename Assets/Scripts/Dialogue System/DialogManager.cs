@@ -9,10 +9,16 @@ public class DialogManager : MonoBehaviour {
 
 	public bool fastText = false;
 	public bool diagEventIsRunning = false; // test
-	public AudioSource source;
-	public GameObject textBox; // Text box sprite
-	public GameObject autoAdvanceText;
-	public Image portrait;
+	public AudioSource source = null;
+	public GameObject textBox = null; // Text box sprite
+	public GameObject autoAdvanceText = null;
+	public Image portrait = null;
+
+	private bool _isRunning = false;
+
+	public bool dialogRunning {
+		get { return _isRunning; }
+	}
 
 	public bool sentenceFinished { 
 		get; private set; 
@@ -42,12 +48,16 @@ public class DialogManager : MonoBehaviour {
 		dialogueText = aux[0];
 		nameText = aux[1];
 		textBox.SetActive(false); // Dectivate textbox
-		autoAdvanceText.SetActive(autoAdvance);
+		
+		// ?. not working?
+		if(autoAdvanceText != null)
+			autoAdvanceText.SetActive(autoAdvance);
 	}
 
 	public void ToggleAutoAdvance(){
+		
 		autoAdvance = !autoAdvance;
-		autoAdvanceText.SetActive(autoAdvance);
+		autoAdvanceText?.SetActive(autoAdvance);
 		
 		// FIXME: need to see how to stop a single coroutine
 		// Workaround
@@ -66,11 +76,16 @@ public class DialogManager : MonoBehaviour {
 		}
 	}
 
+	public void ToggleFastText(){
+		fastText = !fastText;
+	}
+
 	public void Reset(){
 		sentences.Clear();
 		dialogueText.text = "";
 		nameText.text = "";
 		textBox.SetActive(false);
+		_isRunning = false;
 	}
 	public void StartDialog(Dialogue d, string name, Sprite portrait){
 		
@@ -78,8 +93,11 @@ public class DialogManager : MonoBehaviour {
 		sentences.Clear();
 		currentDiag = d; // Assign new dialog
 
-		if(portrait != null) this.portrait.sprite = portrait;
-		else this.portrait.sprite = this.nothing;
+		// Only do this check if dialog box actually have a portrait area
+		if(this.portrait != null){
+			if(portrait != null) this.portrait.sprite = portrait;
+			else this.portrait.sprite = this.nothing;
+		}
 
 		textBox.SetActive(true); // Activate textbox
 		nameText.text = name;
@@ -87,6 +105,7 @@ public class DialogManager : MonoBehaviour {
 		foreach(Sentence sentence in d.sentences)
 			sentences.Enqueue(sentence);
 
+		_isRunning = true;
 		NextSentence();
 	}
 
@@ -97,6 +116,7 @@ public class DialogManager : MonoBehaviour {
 
 		if(sentences.Count == 0){
 			EndDialogue();
+			_isRunning = false;
 			return;
 		}
 
