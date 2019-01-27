@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public string currentScene = "";
+    private string currentScene = "";
     bool soundOn = true;
 
     public bool SoundOn 
@@ -59,6 +59,7 @@ public class GameManager : MonoBehaviour
         } else if (GameManager.manager != this) {
             Destroy(this.gameObject);
         }
+
         DontDestroyOnLoad(this.gameObject);
         if (this.currentScene == "") {
             this.LoadScene("Initial");
@@ -124,6 +125,7 @@ public class GameManager : MonoBehaviour
 
     public void NewGame()
     {
+        Debug.Log("Called new game");
         this.LoadScene("Kitchen");
     }
 

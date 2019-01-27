@@ -6,6 +6,9 @@ using UnityEngine.UI;
 public class DialogManager : MonoBehaviour {
 
 	private static DialogManager instance;
+	public static DialogManager Instance {
+		get { return DialogManager.instance; }
+	}
 
 	public bool fastText = false;
 	public bool diagEventIsRunning = false; // test
