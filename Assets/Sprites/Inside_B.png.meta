@@ -114,7 +114,7 @@ TextureImporter:
     21300218: Inside_B_109
     21300220: Inside_B_110
     21300222: Inside_B_111
-    21300224: Inside_B_112
+    21300224: mesinha1
     21300226: Inside_B_113
     21300228: Inside_B_114
     21300230: Inside_B_115
@@ -128,7 +128,7 @@ TextureImporter:
     21300246: Inside_B_123
     21300248: Inside_B_124
     21300250: Inside_B_125
-    21300252: Inside_B_126
+    21300252: mesinha2
     21300254: Inside_B_127
     21300256: Inside_B_128
     21300258: Inside_B_129
@@ -2491,7 +2491,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_112
+      name: mesinha1
       rect:
         serializedVersion: 2
         x: 128
@@ -2691,7 +2691,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_126
+      name: mesinha2
       rect:
         serializedVersion: 2
         x: 128
