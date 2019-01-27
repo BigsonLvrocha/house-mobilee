@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: windows
+    uniqueID: 4004374597
+    locked: 0
+  - name: furniture
+    uniqueID: 2306281381
+    locked: 0

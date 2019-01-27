@@ -43,4 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebac9ef60a008a146b6a0e4a4a4e6aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: initial
+  moneyText: {fileID: 0}
+  currentScene: Initial
