@@ -12,13 +12,8 @@ public class CameraMan : MonoBehaviour
     
     void Update()
     {
-        if(CameraMan.paused) {
-            print("Is paused");
-            return;
-        }
+        if(CameraMan.paused) return;
 
-        print("Is not paused");
-        
         if (Input.GetMouseButtonDown(0))
         {
             dragOrigin = Input.mousePosition;

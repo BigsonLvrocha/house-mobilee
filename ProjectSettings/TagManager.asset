@@ -47,3 +47,6 @@ TagManager:
   - name: furniture
     uniqueID: 2306281381
     locked: 0
+  - name: shop
+    uniqueID: 1607140367
+    locked: 0

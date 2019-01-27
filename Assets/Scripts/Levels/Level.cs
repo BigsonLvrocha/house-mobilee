@@ -8,7 +8,7 @@ public class Level : MonoBehaviour {
     public ItemDropSpot[] dropSpots { get; protected set; }
 
     [UnityEngine.SerializeField]
-	protected int _topScore;
+	protected int _topScore = 90;
 	public int topScore 
 		{ 
 			get { return this._topScore; } 
@@ -19,7 +19,7 @@ public class Level : MonoBehaviour {
 		}
 
     [UnityEngine.SerializeField]
-	protected int _initialMoney;
+	protected int _initialMoney = 90;
 	public int initialMoney 
 		{ 
 			get { return this._initialMoney; } 
@@ -52,9 +52,13 @@ public class Level : MonoBehaviour {
     	// this.initialMoney = Mathf.CeilToInt(this.topScore/2);
     	this.dropSpots = Object.FindObjectsOfType<ItemDropSpot>();
     	this.topScore = this.dropSpots.Length*2;
+    	print(this.dropSpots[0]);
     	
-    	this.gm = GameObject.Find("GameManager").GetComponent<GameManager>();
-        gm.money = this.initialMoney;
+    	this.gm = GameObject.FindObjectOfType<GameManager>();
+    	print(this.initialMoney);
+        this.gm.money = this.initialMoney;
+        this.gm.level = this;
+
     }
 
     void Update(){

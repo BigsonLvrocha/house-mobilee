@@ -12,7 +12,7 @@ public class ShopItem : MonoBehaviour, IPointerDownHandler {
 	private Shop shop;
 
 	void Awake() {
-		this.gm = GameObject.Find("GameManager").GetComponent<GameManager>();
+		this.gm = GameObject.FindObjectOfType<GameManager>();
 	}
 
 	void Start() {
@@ -25,7 +25,8 @@ public class ShopItem : MonoBehaviour, IPointerDownHandler {
 
 		// Create new
 		var newObj = GameObject.Instantiate(this.prefab);
-		
+		GameObject.Destroy(newObj.GetComponent<ShopItem>());
+
 		// Get object's furniture reference and copy this values
 		var furniture = newObj.GetComponent<Furniture>();
 		
@@ -36,9 +37,15 @@ public class ShopItem : MonoBehaviour, IPointerDownHandler {
 		furniture.obj = this.GetComponent<Furniture>().obj;
 
 		// Get object's dragger
-		var dragger = newObj.GetComponent<ItemDragger>();
+		// var dragger = newObj.GetComponent<ItemDragger>();
+		Debug.Log("Adicionando dragger");
+		var dragger = newObj.AddComponent<ItemDragger>();
+		dragger.dragOn = true;
 		dragger.reference = this;
 		dragger.dropSpots = shop.level.dropSpots;
+		Debug.Log("On instantiate");
+		Debug.Log(dragger.dragOn);
+		Debug.Log(dragger.reference);
 
 		// Disable shop and this to remove from shop list
 		this.shop.CloseShop();
@@ -46,6 +53,7 @@ public class ShopItem : MonoBehaviour, IPointerDownHandler {
 	}
 
 	public void ReturnToShop(){
+		print("Returning to Shop");
 		this.gm.money += this.GetComponent<Furniture>().obj.cost;
 		this.gameObject.SetActive(true);
 		this.shop.OpenShop();

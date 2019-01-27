@@ -7,7 +7,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName="Furniture",menuName="Scriptable/Furnitures",order=1)]
 public class FurnitureScriptable : ScriptableObject {
     public int cost;
-    public Sprite sprite;
+    public GameObject spritePrefab;
+    public GameObject imagesPrefab;
     public string shopDialog;
     public string ownerDialog;
     public string name;

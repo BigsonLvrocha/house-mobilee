@@ -36,7 +36,6 @@ public class Shop : MonoBehaviour {
 		this.closeBtn.gameObject.SetActive(state);
 
 		this._isopen = state;
-		print("state " + state);
 		CameraMan.paused = state;
 	}
 

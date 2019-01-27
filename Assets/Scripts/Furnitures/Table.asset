@@ -10,10 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dd39480dfe6cb676aa880d195470ab97, type: 3}
-  m_Name: Aquarium
+  m_Name: Table
   m_EditorClassIdentifier: 
   cost: 1
-  sprite: {fileID: 21300000, guid: cdf042181eea3833497d7c8b12b2fa10, type: 3}
-  shopDialog: A small aquarium with a little gold fish.
-  ownerDialog: I liek tortlez.
-  entry: 0
+  spritePrefab: {fileID: 5410741872129212416, guid: f0b71ee140838b6bdacd48fd1180a7cd,
+    type: 3}
+  imagesPrefab: {fileID: 8779220602053143151, guid: 784df20a6ff1df064b7442e0cfbc1d98,
+    type: 3}
+  shopDialog: A table
+  ownerDialog: table
+  name: Table

@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     /* Properties */
     public Text moneyText;
     public Level level;
-
+    
     [UnityEngine.SerializeField]
     private bool running = false;
     private int score = 0;
@@ -74,6 +74,8 @@ public class GameManager : MonoBehaviour
         List<string> names = new List<string>();
         int counter = 0;
 
+        print(this.level);
+        print(this.level.dropSpots);
         foreach(ItemDropSpot item in this.level.dropSpots){
             // Items in correct position
             if (item.expectedItem.name == item.gotItem.name){
@@ -116,7 +118,9 @@ public class GameManager : MonoBehaviour
         this.currentScene = scene;
         UnityEngine.SceneManagement.SceneManager.LoadScene(currentScene);
         
-        this.level = GameObject.FindObjectOfType<Level>();
+        // this.level = GameObject.FindObjectOfType<Level>();
+        print("Loaded new scene");
+        print(this.level);
         if (this.level){
             this.money = this.level.initialMoney;
         }
