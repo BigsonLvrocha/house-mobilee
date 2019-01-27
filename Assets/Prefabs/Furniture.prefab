@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1204231696833458682}
   - component: {fileID: 1204231696833458683}
+  - component: {fileID: 5417808526232718834}
   m_Layer: 0
-  m_Name: Aquarium
+  m_Name: Furniture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,6 +46,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 11400000, guid: 134c61387ed7adebabfa6b70f66ea781, type: 2}
+--- !u!114 &5417808526232718834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204231696833458684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9028e2aa6ec3620eb2c2a9f6b3287bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reference: {fileID: 0}
 --- !u!1 &1204231698541784173
 GameObject:
   m_ObjectHideFlags: 0

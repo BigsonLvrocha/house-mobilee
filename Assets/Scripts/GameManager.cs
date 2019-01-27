@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,7 +16,19 @@ public class GameManager : MonoBehaviour
     }
 
     /* Properties */
-    private int money;
+    public Text moneyText;
+
+    private int _money;
+    public int money {
+        get { return this._money; }
+        set {
+            if (value < 0)
+                throw new ArgumentException("Money cannot be less than 0");
+                
+            this._money = value;
+            this.moneyText.text = this._money.ToString();
+        }
+    }
 
     public string currentScene = "";
     bool soundOn = true;
@@ -30,16 +44,16 @@ public class GameManager : MonoBehaviour
     }
 
     void Awake() {
-        if (GameManager.manager == null) {
-            GameManager.manager = this;
-        } else if (GameManager.manager != this) {
-            Destroy(this.gameObject);
-        }
-        DontDestroyOnLoad(this.gameObject);
-        if (this.currentScene == "") {
-            this.LoadScene("Initial");
-        }
-        this.LoadScene(this.currentScene);
+        // if (GameManager.manager == null) {
+        //     GameManager.manager = this;
+        // } else if (GameManager.manager != this) {
+        //     Destroy(this.gameObject);
+        // }
+        // DontDestroyOnLoad(this.gameObject);
+        // if (this.currentScene == "") {
+        //     this.LoadScene("Initial");
+        // }
+        // this.LoadScene(this.currentScene);
     }
 
     public void LoadScene(string scene)

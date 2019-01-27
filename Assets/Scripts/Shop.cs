@@ -5,35 +5,24 @@ using UnityEngine.UI;
 
 public class Shop : MonoBehaviour {
 
+	public Level level;
 	public Button openBtn;
 	public Button closeBtn;
+	public GameObject contentObject;
 
 	private bool _isopen;
 	public bool isopen { get { return this._isopen; } }
 
-	[UnityEngine.SerializeField]
-	private List<FurnitureId> shopList;
+	public List<Furniture> shopList;
 
 	public void Start() {
-		this.shopList = new List<FurnitureId>();
+		
+		this.shopList = new List<Furniture>(
+			this.contentObject.GetComponentsInChildren<Furniture>()
+		);
+
 		this.CloseShop();
 	}
-
-	public void AddItem(FurnitureId f) { this.shopList.Add(f); }
-	public void AddItem(FurnitureId[] f) { this.shopList.AddRange(f); }
-	public void AddItem(List<FurnitureId> f) { this.shopList.AddRange(f); }
-	
-	// public Furniture GetItemAt(int idx){
-	// 	return this.shopList[idx];
-	// }
-
-	// This is dangerous, shoplist should be private -- need deepcopy
-	// public List<Furniture> GetItemList(int idx){
-	// 	foreach (FurnitureId id in this.shopList) {
-
-		 	
-	// 	}
-	// }
 
 	public void SetShopState(bool state, string btnText){
 

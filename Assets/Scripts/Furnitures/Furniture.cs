@@ -6,8 +6,8 @@ using UnityEngine.UI;
 
 public class Furniture : MonoBehaviour {
 
-	[UnityEngine.SerializeField]
-	private FurnitureScriptable obj;
+	/* Properties */
+	public FurnitureScriptable obj;
 
 	// Readonly access fields for scriptable object
 	public int cost				{ get { return this.obj.cost;		 } }
@@ -27,7 +27,9 @@ public class Furniture : MonoBehaviour {
 			this.GetComponentInChildren<Image>().sprite = this.sprite;
 			this.GetComponentInChildren<Text>().text = this.shopDialog;
 		}
-
 	}
 
+	public void SetScriptableObject(FurnitureScriptable obj){
+		this.obj = obj;
+	}
 }
