@@ -23,7 +23,6 @@ public class ShopItem : MonoBehaviour, IPointerDownHandler {
 	public void OnPointerDown(PointerEventData eventData) {
 		Debug.Log("Mouse is down, instantiating object");
 
-
 		// Create new
 		var newObj = GameObject.Instantiate(this.prefab);
 		

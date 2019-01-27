@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Shop : MonoBehaviour {
 
 	public LevelBase level;
+
 	public Button openBtn;
 	public Button closeBtn;
 	public GameObject contentObject;
