@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class Shop : MonoBehaviour {
 
-	public Level level;
+	private GameManager gm;
 
+	public Level level;
 	public Button openBtn;
 	public Button closeBtn;
 	public GameObject contentObject;
@@ -22,10 +23,11 @@ public class Shop : MonoBehaviour {
 			this.contentObject.GetComponentsInChildren<Furniture>()
 		);
 		this.level = GameObject.FindObjectOfType<Level>();
+		this.gm = FindObjectOfType<GameManager>();
 		this.CloseShop();
 	}
 
-	public void SetShopState(bool state, string btnText){
+	public void SetShopState(bool state){
 
 		foreach (Transform child in this.transform)
 			child.gameObject.SetActive(state);
@@ -34,15 +36,17 @@ public class Shop : MonoBehaviour {
 		this.closeBtn.gameObject.SetActive(state);
 
 		this._isopen = state;
+		print("state " + state);
+		CameraMan.paused = state;
 	}
 
 	public void CloseShop(){
-		SetShopState(false, "Open Shop");
+		SetShopState(false);
 		// this.btn.onClick.AddListener(OpenShop); Unity doesnt like adding events :c
 	}
 
 	public void OpenShop(){
-		SetShopState(true, "Close Shop");
+		SetShopState(true);
 		// this.btn.onClick.AddListener(CloseShop);
 	}
 
