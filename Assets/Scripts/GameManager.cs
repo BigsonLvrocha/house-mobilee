@@ -18,7 +18,9 @@ public class GameManager : MonoBehaviour
     /* Properties */
     public Text moneyText;
     public Level level;
-    
+
+    public AudioSource sound;
+
     [UnityEngine.SerializeField]
     private bool running = false;
     private int score = 0;
@@ -49,6 +51,7 @@ public class GameManager : MonoBehaviour
             return this.soundOn;
         }
         set {
+            this.sound.mute = !value;
             this.soundOn = value;
         }
     }
@@ -66,6 +69,11 @@ public class GameManager : MonoBehaviour
             return;
         }
         this.LoadScene(this.currentScene);
+    }
+
+    public void Start()
+    {
+        this.sound = gameObject.GetComponent<AudioSource>();
     }
 
     public void WinOrLose(){

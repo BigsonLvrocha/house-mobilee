@@ -26,7 +26,7 @@ TextureImporter:
     21300042: castle (2)_21
     21300044: castle (2)_22
     21300046: castle (2)_23
-    21300048: castle (2)_24
+    21300048: parede baixo
     21300050: castle (2)_25
     21300052: castle (2)_26
     21300054: castle (2)_27
@@ -115,8 +115,8 @@ TextureImporter:
     21300220: castle (2)_110
     21300222: castle (2)_111
     21300224: castle (2)_112
-    21300226: castle (2)_113
-    21300228: castle (2)_114
+    21300226: RelogioTorreBase
+    21300228: Candelabro
     21300230: castle (2)_115
     21300232: castle (2)_116
     21300234: castle (2)_117
@@ -126,7 +126,7 @@ TextureImporter:
     21300242: castle (2)_121
     21300244: castle (2)_122
     21300246: castle (2)_123
-    21300248: castle (2)_124
+    21300248: janela gigante 1
     21300250: castle (2)_125
     21300252: castle (2)_126
     21300254: castle (2)_127
@@ -134,7 +134,7 @@ TextureImporter:
     21300258: castle (2)_129
     21300260: castle (2)_130
     21300262: castle (2)_131
-    21300264: castle (2)_132
+    21300264: Janela gigante 2
     21300266: castle (2)_133
     21300268: castle (2)_134
     21300270: castle (2)_135
@@ -154,6 +154,7 @@ TextureImporter:
     21300298: castle (2)_149
     21300300: castle (2)_150
     21300302: castle (2)_151
+    21300304: RelogioTorreCima
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -183,7 +184,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -738,7 +739,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_24
+      name: parede baixo
       rect:
         serializedVersion: 2
         x: 0
@@ -2458,14 +2459,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_113
+      name: RelogioTorreBase
       rect:
         serializedVersion: 2
         x: 32
-        y: 128
+        y: 77
         width: 32
         height: 32
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -2478,15 +2479,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_114
+      name: Candelabro
       rect:
         serializedVersion: 2
         x: 64
-        y: 128
+        y: 96
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2558,46 +2559,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_121
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 570715fa4136259468d9163018dc72bc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle (2)_122
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e059264288d821438a0a5b43f8f2a94
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: castle (2)_123
       rect:
         serializedVersion: 2
@@ -2618,7 +2579,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_124
+      name: janela gigante 1
       rect:
         serializedVersion: 2
         x: 128
@@ -2718,26 +2679,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_129
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 617701f3aef8e3e479c8c2d0cb6f7c4e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: castle (2)_130
       rect:
         serializedVersion: 2
@@ -2778,7 +2719,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_132
+      name: Janela gigante 2
       rect:
         serializedVersion: 2
         x: 128
@@ -2882,7 +2823,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 33
         width: 32
         height: 32
       alignment: 0
@@ -3173,6 +3114,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0e2dc85ab10862942a76e32605eb3764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTorreCima
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 109
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e19862ceb86ca4eb986cd5b619e71d
       vertices: []
       indices: 
       edges: []
