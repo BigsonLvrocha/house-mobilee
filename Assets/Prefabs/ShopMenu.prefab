@@ -896,8 +896,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ccf9ab7bfa5b0de68c0e5192426e44b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level: {fileID: 0}
   openBtn: {fileID: 1302581500059341045}
   closeBtn: {fileID: 1302581501116660224}
+  contentObject: {fileID: 1302581500783868849}
   shopList: []
 --- !u!1 &1302581501373391221
 GameObject:
