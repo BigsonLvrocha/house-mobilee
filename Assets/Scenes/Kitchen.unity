@@ -3132,7 +3132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3525848bc32016049a33b08996555024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destinyScene: Garden
+  destinyScene: BackGarden
 --- !u!61 &943975514
 BoxCollider2D:
   m_ObjectHideFlags: 0

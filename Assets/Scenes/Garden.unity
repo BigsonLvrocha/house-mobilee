@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3525848bc32016049a33b08996555024, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destinyScene: Kitchen
+  destinyScene: LivingRoom
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2593,6 +2593,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 733649898208030270, guid: 47dba1d0e8c247a4faa0ee1d49260f9c,
+        type: 3}
+      propertyPath: dragSpeed
+      value: -18
+      objectReference: {fileID: 0}
     - target: {fileID: 733649898208030400, guid: 47dba1d0e8c247a4faa0ee1d49260f9c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2647,11 +2652,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 733649898208030270, guid: 47dba1d0e8c247a4faa0ee1d49260f9c,
-        type: 3}
-      propertyPath: dragSpeed
-      value: -18
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47dba1d0e8c247a4faa0ee1d49260f9c, type: 3}
