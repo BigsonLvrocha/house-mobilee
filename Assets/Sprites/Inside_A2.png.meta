@@ -4,7 +4,7 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: Inside_A2_0
     21300002: Inside_A2_1
-    21300004: Inside_A2_2
+    21300004: tile_cozinha
     21300006: Inside_A2_3
     21300008: Inside_A2_4
     21300010: Inside_A2_5
@@ -180,7 +180,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A2_2
+      name: tile_cozinha
       rect:
         serializedVersion: 2
         x: 64

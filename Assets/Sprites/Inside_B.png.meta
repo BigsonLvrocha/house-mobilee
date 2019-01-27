@@ -5,7 +5,7 @@ TextureImporter:
     21300000: janela pequena cima
     21300002: Inside_B_1
     21300004: Inside_B_2
-    21300006: Inside_B_3
+    21300006: Janela_grande_cima
     21300008: Inside_B_4
     21300010: Inside_B_5
     21300012: Inside_B_6
@@ -21,7 +21,7 @@ TextureImporter:
     21300032: janela pequena baixo
     21300034: Inside_B_17
     21300036: Inside_B_18
-    21300038: Inside_B_19
+    21300038: janela grande baixo
     21300040: Inside_B_20
     21300042: Inside_B_21
     21300044: Inside_B_22
@@ -410,7 +410,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_3
+      name: Janela_grande_cima
       rect:
         serializedVersion: 2
         x: 128
@@ -730,7 +730,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_19
+      name: janela grande baixo
       rect:
         serializedVersion: 2
         x: 128
