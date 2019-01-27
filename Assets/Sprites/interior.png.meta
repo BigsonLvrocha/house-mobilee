@@ -9,7 +9,7 @@ TextureImporter:
     21300008: interior_4
     21300010: interior_5
     21300012: interior_6
-    21300014: interior_7
+    21300014: EspadasEnfeite
     21300016: interior_8
     21300018: interior_9
     21300020: interior_10
@@ -24,8 +24,8 @@ TextureImporter:
     21300038: interior_19
     21300040: interior_20
     21300042: interior_21
-    21300044: interior_22
-    21300046: interior_23
+    21300044: Arcos
+    21300046: Escudo
     21300048: interior_24
     21300050: interior_25
     21300052: interior_26
@@ -55,9 +55,9 @@ TextureImporter:
     21300100: interior_50
     21300102: interior_51
     21300104: interior_52
-    21300106: interior_53
+    21300106: ArmaduraEnfeite1
     21300108: interior_54
-    21300110: interior_55
+    21300110: ArmaduraEnfeite2
     21300112: interior_56
     21300114: interior_57
     21300116: chao_cozinha
@@ -85,10 +85,10 @@ TextureImporter:
     21300160: interior_80
     21300162: interior_81
     21300164: interior_82
-    21300166: interior_83
-    21300168: interior_84
-    21300170: interior_85
-    21300172: interior_86
+    21300166: Armario
+    21300168: EstanteDeLivro
+    21300170: "EstanteDeLou\xE7a"
+    21300172: ArmarioGavetas
     21300174: interior_87
     21300176: interior_88
     21300178: interior_89
@@ -379,7 +379,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_7
+      name: EspadasEnfeite
       rect:
         serializedVersion: 2
         x: 224
@@ -679,7 +679,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_22
+      name: Arcos
       rect:
         serializedVersion: 2
         x: 224
@@ -699,7 +699,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_23
+      name: Escudo
       rect:
         serializedVersion: 2
         x: 256
@@ -1279,35 +1279,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_52
+      name: ArmaduraEnfeite1
       rect:
         serializedVersion: 2
         x: 224
         y: 384
-        width: 32
+        width: 64
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89be40464c7277c48beee555b9101574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: interior_53
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 384
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1319,32 +1299,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_54
+      name: ArmaduraEnfeite2
       rect:
         serializedVersion: 2
         x: 288
         y: 384
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9b550c86fa156c04ba256535b4bd2604
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: interior_55
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 384
-        width: 32
+        width: 64
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1899,15 +1859,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_83
+      name: Armario
       rect:
         serializedVersion: 2
         x: 0
-        y: 288
+        y: 256
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1919,15 +1879,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_84
+      name: EstanteDeLivro
       rect:
         serializedVersion: 2
         x: 32
-        y: 288
+        y: 256
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1939,15 +1899,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_85
+      name: "EstanteDeLou\xE7a"
       rect:
         serializedVersion: 2
         x: 64
-        y: 288
+        y: 256
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1959,15 +1919,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_86
+      name: ArmarioGavetas
       rect:
         serializedVersion: 2
         x: 96
-        y: 288
+        y: 256
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2074,86 +2034,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 071513a73d5a71a48af6d3e583a55a7f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: interior_95
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d09f5306d34ac2e4aa37626c02fa0da2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: interior_96
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca8cf6e83e9f3344b804233d6adcda7c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: interior_97
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2fec67ca0ec95594ca2c05538e9cb9f0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: interior_98
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 256
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e1ccbb9ad045a5246bcaf17df317fe88
       vertices: []
       indices: 
       edges: []

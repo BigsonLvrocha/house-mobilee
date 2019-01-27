@@ -33,7 +33,7 @@ TextureImporter:
     21300056: Inside_B_28
     21300058: Inside_B_29
     21300060: Inside_B_30
-    21300062: Inside_B_31
+    21300062: QuadroX
     21300064: Inside_B_32
     21300066: Inside_B_33
     21300068: Inside_B_34
@@ -64,9 +64,9 @@ TextureImporter:
     21300118: Inside_B_59
     21300120: Inside_B_60
     21300122: Inside_B_61
-    21300124: Inside_B_62
-    21300126: Inside_B_63
-    21300128: Inside_B_64
+    21300124: mesa1
+    21300126: mesa2
+    21300128: mesa3
     21300130: Inside_B_65
     21300132: Inside_B_66
     21300134: Inside_B_67
@@ -80,9 +80,9 @@ TextureImporter:
     21300150: Inside_B_75
     21300152: Inside_B_76
     21300154: Inside_B_77
-    21300156: Inside_B_78
-    21300158: Inside_B_79
-    21300160: Inside_B_80
+    21300156: mesa4
+    21300158: mesa5
+    21300160: mesa6
     21300162: Inside_B_81
     21300164: Inside_B_82
     21300166: Inside_B_83
@@ -96,9 +96,9 @@ TextureImporter:
     21300182: Inside_B_91
     21300184: Inside_B_92
     21300186: Inside_B_93
-    21300188: Inside_B_94
-    21300190: Inside_B_95
-    21300192: Inside_B_96
+    21300188: mesa7
+    21300190: mesa8
+    21300192: mesa9
     21300194: Inside_B_97
     21300196: Inside_B_98
     21300198: Inside_B_99
@@ -177,7 +177,7 @@ TextureImporter:
     21300344: Inside_B_172
     21300346: Inside_B_173
     21300348: Inside_B_174
-    21300350: Inside_B_175
+    21300350: CamaVermelha
     21300352: Inside_B_176
     21300354: Inside_B_177
     21300356: Inside_B_178
@@ -190,9 +190,9 @@ TextureImporter:
     21300370: Inside_B_185
     21300372: Inside_B_186
     21300374: Inside_B_187
-    21300376: Inside_B_188
+    21300376: SofaLado
     21300378: Inside_B_189
-    21300380: Inside_B_190
+    21300380: SofaFrente
     21300382: Inside_B_191
     21300384: Inside_B_192
     21300386: Inside_B_193
@@ -220,7 +220,7 @@ TextureImporter:
     21300430: Inside_B_215
     21300432: Inside_B_216
     21300434: Inside_B_217
-    21300436: Inside_B_218
+    21300436: EnfeiteX
     21300438: Inside_B_219
     21300440: Inside_B_220
     21300442: Inside_B_221
@@ -246,6 +246,7 @@ TextureImporter:
     21300482: Inside_B_241
     21300484: Inside_B_242
     21300486: Inside_B_243
+    21300488: Cadeira frente
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -970,15 +971,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_31
+      name: QuadroX
       rect:
         serializedVersion: 2
         x: 0
-        y: 416
+        y: 384
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1265,26 +1266,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d862ff7ecad8b7a4b9f6360309a792fa
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_46
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 384
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41ddcefff49948c4cb1774ceceef428b
       vertices: []
       indices: 
       edges: []
@@ -1590,7 +1571,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_62
+      name: mesa1
       rect:
         serializedVersion: 2
         x: 0
@@ -1610,7 +1591,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_63
+      name: mesa2
       rect:
         serializedVersion: 2
         x: 32
@@ -1630,7 +1611,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_64
+      name: mesa3
       rect:
         serializedVersion: 2
         x: 64
@@ -1910,7 +1891,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_78
+      name: mesa4
       rect:
         serializedVersion: 2
         x: 0
@@ -1930,7 +1911,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_79
+      name: mesa5
       rect:
         serializedVersion: 2
         x: 32
@@ -1950,7 +1931,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_80
+      name: mesa6
       rect:
         serializedVersion: 2
         x: 64
@@ -2230,7 +2211,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_94
+      name: mesa7
       rect:
         serializedVersion: 2
         x: 0
@@ -2250,7 +2231,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_95
+      name: mesa8
       rect:
         serializedVersion: 2
         x: 32
@@ -2270,7 +2251,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_96
+      name: mesa9
       rect:
         serializedVersion: 2
         x: 64
@@ -2950,46 +2931,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_142
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a83544d686c4174c8dcfedea2574bc0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_143
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1e414e69e867fe4e9f2c89996650d80
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Inside_B_144
       rect:
         serializedVersion: 2
@@ -3245,46 +3186,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 19514870e2a9b7140be7d2867d18ee4b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_158
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e8b3c6e3ebf32e4c88749548dc6adb3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_159
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04d87f37979eae3449743c9eb77761de
       vertices: []
       indices: 
       edges: []
@@ -3550,35 +3451,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_174
+      name: CamaVermelha
       rect:
         serializedVersion: 2
         x: 128
         y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b09718faf37645a47b1db080021e6109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_175
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 64
+        height: 96
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3790,15 +3671,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_188
+      name: SofaLado
       rect:
         serializedVersion: 2
         x: 64
-        y: 96
+        y: 64
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3810,61 +3691,21 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_189
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9c530a4674f5d741a3ae46197067cc5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_190
+      name: SofaFrente
       rect:
         serializedVersion: 2
         x: 128
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.25, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: b7c6191bb3623d9438a6b8af425e34f5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_191
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71605a859e8fe984d8e59aaf229c15c7
       vertices: []
       indices: 
       edges: []
@@ -4050,86 +3891,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_204
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 698f19097b8f476469e4efd69087c367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_205
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd026165cf11690438043ff28a61c65c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_206
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff2698d071689cc489ae034ede0426ee
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_207
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 531cf9793de28454c8db32862d1c8ee3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Inside_B_210
       rect:
         serializedVersion: 2
@@ -4290,15 +4051,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_218
+      name: EnfeiteX
       rect:
         serializedVersion: 2
         x: 192
-        y: 32
+        y: 0
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4490,26 +4251,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_234
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34044fd434849504a84291f3638bbab2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Inside_B_235
       rect:
         serializedVersion: 2
@@ -4685,6 +4426,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 885e6430219be784bbed698096d712e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cadeira frente
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42e25d4940da704c91e3058ad4229de
       vertices: []
       indices: 
       edges: []
