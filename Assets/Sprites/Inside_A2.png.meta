@@ -4,7 +4,7 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: Inside_A2_0
     21300002: Inside_A2_1
-    21300004: Inside_A2_2
+    21300004: tile_cozinha
     21300006: Inside_A2_3
     21300008: Inside_A2_4
     21300010: Inside_A2_5
@@ -44,7 +44,7 @@ TextureImporter:
     21300078: Inside_A2_39
     21300080: Inside_A2_40
     21300082: Inside_A2_41
-    21300084: Inside_A2_42
+    21300084: wooden tile
     21300086: Inside_A2_43
     21300088: Inside_A2_44
     21300090: Inside_A2_45
@@ -180,7 +180,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A2_2
+      name: tile_cozinha
       rect:
         serializedVersion: 2
         x: 64
@@ -600,11 +600,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A2_42
+      name: wooden tile
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
+        y: 159
         width: 32
         height: 32
       alignment: 0
