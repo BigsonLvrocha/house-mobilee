@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Shop : MonoBehaviour {
 
-	public Level level;
+	public LevelBase level;
 	public Button openBtn;
 	public Button closeBtn;
 	public GameObject contentObject;
@@ -20,7 +20,7 @@ public class Shop : MonoBehaviour {
 		this.shopList = new List<Furniture>(
 			this.contentObject.GetComponentsInChildren<Furniture>()
 		);
-
+		this.level = GameObject.FindObjectOfType<LevelBase>();
 		this.CloseShop();
 	}
 
