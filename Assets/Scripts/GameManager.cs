@@ -44,16 +44,17 @@ public class GameManager : MonoBehaviour
     }
 
     void Awake() {
-        // if (GameManager.manager == null) {
-        //     GameManager.manager = this;
-        // } else if (GameManager.manager != this) {
-        //     Destroy(this.gameObject);
-        // }
-        // DontDestroyOnLoad(this.gameObject);
-        // if (this.currentScene == "") {
-        //     this.LoadScene("Initial");
-        // }
-        // this.LoadScene(this.currentScene);
+        if (GameManager.manager == null) {
+            GameManager.manager = this;
+        } else if (GameManager.manager != this) {
+            Destroy(this.gameObject);
+        }
+        DontDestroyOnLoad(this.gameObject);
+        if (this.currentScene == "") {
+            this.LoadScene("Initial");
+            return;
+        }
+        this.LoadScene(this.currentScene);
     }
 
     public void LoadScene(string scene)

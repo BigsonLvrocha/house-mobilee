@@ -20,7 +20,7 @@ TextureImporter:
     21300030: house_inside (2)_15
     21300032: house_inside (2)_16
     21300034: house_inside (2)_17
-    21300036: house_inside (2)_18
+    21300036: tapete
     21300038: house_inside (2)_19
     21300040: house_inside (2)_20
     21300042: house_inside (2)_21
@@ -76,11 +76,11 @@ TextureImporter:
     21300142: house_inside (2)_79
     21300144: house_inside (2)_80
     21300146: house_inside (2)_81
-    21300148: house_inside (2)_82
-    21300150: house_inside (2)_83
-    21300152: house_inside (2)_84
-    21300154: house_inside (2)_85
-    21300156: house_inside (2)_86
+    21300148: mesinha
+    21300150: cadeira frente
+    21300152: cadeira tras
+    21300154: Cadeira direita
+    21300156: cadeira direita
     21300158: house_inside (2)_87
     21300160: house_inside (2)_88
     21300162: house_inside (2)_89
@@ -97,7 +97,7 @@ TextureImporter:
     21300184: house_inside (2)_100
     21300186: house_inside (2)_101
     21300188: house_inside (2)_102
-    21300190: house_inside (2)_103
+    21300190: luminaria 2
     21300192: house_inside (2)_104
     21300194: house_inside (2)_105
     21300196: house_inside (2)_106
@@ -113,7 +113,7 @@ TextureImporter:
     21300216: house_inside (2)_116
     21300218: house_inside (2)_117
     21300220: house_inside (2)_118
-    21300222: house_inside (2)_119
+    21300222: luminaria 1
     21300224: house_inside (2)_120
     21300226: house_inside (2)_121
     21300228: house_inside (2)_122
@@ -123,13 +123,13 @@ TextureImporter:
     21300236: house_inside (2)_126
     21300238: house_inside (2)_127
     21300240: house_inside (2)_128
-    21300242: house_inside (2)_129
+    21300242: parede azul cima
     21300244: house_inside (2)_130
     21300246: house_inside (2)_131
     21300248: house_inside (2)_132
     21300250: house_inside (2)_133
-    21300252: house_inside (2)_134
-    21300254: house_inside (2)_135
+    21300252: cadeira frente 2
+    21300254: cadeira tras 2
     21300256: house_inside (2)_136
     21300258: house_inside (2)_137
     21300260: house_inside (2)_138
@@ -137,26 +137,26 @@ TextureImporter:
     21300264: house_inside (2)_140
     21300266: house_inside (2)_141
     21300268: house_inside (2)_142
-    21300270: house_inside (2)_143
+    21300270: parede azul meio
     21300272: house_inside (2)_144
     21300274: house_inside (2)_145
     21300276: house_inside (2)_152
     21300278: house_inside (2)_153
-    21300280: house_inside (2)_154
-    21300282: house_inside (2)_155
+    21300280: cadeira direita 2
+    21300282: cadeira esquerda 2
     21300284: house_inside (2)_156
     21300286: house_inside (2)_157
     21300288: house_inside (2)_158
     21300290: house_inside (2)_159
     21300292: house_inside (2)_160
-    21300294: house_inside (2)_161
+    21300294: parede azul baixo
     21300296: house_inside (2)_172
     21300298: house_inside (2)_173
     21300300: house_inside (2)_174
     21300302: house_inside (2)_175
     21300304: house_inside (2)_176
     21300306: house_inside (2)_177
-    21300308: house_inside (2)_183
+    21300308: chao_madeira
     21300310: house_inside (2)_198
     21300312: house_inside (2)_199
     21300314: house_inside (2)_214
@@ -345,7 +345,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_18
+      name: tapete
       rect:
         serializedVersion: 2
         x: 192
@@ -1005,7 +1005,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_82
+      name: mesinha
       rect:
         serializedVersion: 2
         x: 192
@@ -1025,7 +1025,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_83
+      name: cadeira frente
       rect:
         serializedVersion: 2
         x: 224
@@ -1045,7 +1045,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_84
+      name: cadeira tras
       rect:
         serializedVersion: 2
         x: 256
@@ -1065,7 +1065,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_85
+      name: Cadeira direita
       rect:
         serializedVersion: 2
         x: 288
@@ -1085,7 +1085,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_86
+      name: cadeira direita
       rect:
         serializedVersion: 2
         x: 320
@@ -1305,7 +1305,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_103
+      name: luminaria 2
       rect:
         serializedVersion: 2
         x: 352
@@ -1465,7 +1465,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_119
+      name: luminaria 1
       rect:
         serializedVersion: 2
         x: 352
@@ -1605,7 +1605,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_129
+      name: parede azul cima
       rect:
         serializedVersion: 2
         x: 160
@@ -1705,7 +1705,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_134
+      name: cadeira frente 2
       rect:
         serializedVersion: 2
         x: 320
@@ -1725,7 +1725,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_135
+      name: cadeira tras 2
       rect:
         serializedVersion: 2
         x: 352
@@ -1825,7 +1825,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_143
+      name: parede azul meio
       rect:
         serializedVersion: 2
         x: 96
@@ -1925,7 +1925,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_154
+      name: cadeira direita 2
       rect:
         serializedVersion: 2
         x: 448
@@ -1945,7 +1945,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_155
+      name: cadeira esquerda 2
       rect:
         serializedVersion: 2
         x: 480
@@ -2045,7 +2045,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_161
+      name: parede azul baixo
       rect:
         serializedVersion: 2
         x: 160
@@ -2145,7 +2145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: house_inside (2)_183
+      name: chao_madeira
       rect:
         serializedVersion: 2
         x: 352
