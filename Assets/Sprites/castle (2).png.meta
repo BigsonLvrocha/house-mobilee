@@ -115,7 +115,7 @@ TextureImporter:
     21300220: castle (2)_110
     21300222: castle (2)_111
     21300224: castle (2)_112
-    21300226: castle (2)_113
+    21300226: RelogioTorreBase
     21300228: castle (2)_114
     21300230: castle (2)_115
     21300232: castle (2)_116
@@ -154,6 +154,7 @@ TextureImporter:
     21300298: castle (2)_149
     21300300: castle (2)_150
     21300302: castle (2)_151
+    21300304: RelogioTorreCima
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -2458,14 +2459,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_113
+      name: RelogioTorreBase
       rect:
         serializedVersion: 2
         x: 32
-        y: 128
+        y: 77
         width: 32
         height: 32
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -2553,26 +2554,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ddcfb52814427c349b0929945606204d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle (2)_121
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 570715fa4136259468d9163018dc72bc
       vertices: []
       indices: 
       edges: []
@@ -2713,26 +2694,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4328114e728931d4f8eebefa044d6b33
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle (2)_129
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 617701f3aef8e3e479c8c2d0cb6f7c4e
       vertices: []
       indices: 
       edges: []
@@ -2882,7 +2843,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 32
+        y: 33
         width: 32
         height: 32
       alignment: 0
@@ -3173,6 +3134,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0e2dc85ab10862942a76e32605eb3764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RelogioTorreCima
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 109
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e19862ceb86ca4eb986cd5b619e71d
       vertices: []
       indices: 
       edges: []

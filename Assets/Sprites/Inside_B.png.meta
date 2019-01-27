@@ -177,7 +177,7 @@ TextureImporter:
     21300344: Inside_B_172
     21300346: Inside_B_173
     21300348: Inside_B_174
-    21300350: Inside_B_175
+    21300350: CamaVermelha
     21300352: Inside_B_176
     21300354: Inside_B_177
     21300356: Inside_B_178
@@ -2950,46 +2950,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_142
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0a83544d686c4174c8dcfedea2574bc0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_143
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 192
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c1e414e69e867fe4e9f2c89996650d80
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Inside_B_144
       rect:
         serializedVersion: 2
@@ -3245,46 +3205,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 19514870e2a9b7140be7d2867d18ee4b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_158
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e8b3c6e3ebf32e4c88749548dc6adb3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_159
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 160
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 04d87f37979eae3449743c9eb77761de
       vertices: []
       indices: 
       edges: []
@@ -3550,35 +3470,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_174
+      name: CamaVermelha
       rect:
         serializedVersion: 2
         x: 128
         y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b09718faf37645a47b1db080021e6109
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Inside_B_175
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 128
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 64
+        height: 96
+      alignment: 9
+      pivot: {x: 0.75, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
