@@ -21,15 +21,15 @@ public class ShopItem : MonoBehaviour, IPointerDownHandler {
 	// Maybe use only mouse down?
 	public void OnPointerDown(PointerEventData eventData) {
 		Debug.Log("Mouse is down, instantiating object");
-
+        /*
 		// Detract cost from player's money
 		try {
-			this.gm.money -= furniture.cost;
+			//this.gm.money -= furniture.cost;
 		} catch (ArgumentException e){
 			// Not enought money
 			return;
 		}
-
+        */
 		// Create new
 		var newObj = GameObject.Instantiate(this.prefab);
 		

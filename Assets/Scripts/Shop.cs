@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Shop : MonoBehaviour {
 
-	public Level level;
+	//public Level level;
 	public Button openBtn;
 	public Button closeBtn;
 	public GameObject contentObject;
