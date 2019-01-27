@@ -125,6 +125,9 @@ public class DialogManager : MonoBehaviour {
 
 		currentSentence = sentences.Dequeue();
 		dialogueText.text = "";
+		if(currentSentence.name != "")
+			nameText.text = currentSentence.name;
+
 
 		// StopCoroutine(PrintChar(currentSentence.text));
 		StopAllCoroutines(); // This only stop coroutines on THIS behaviour

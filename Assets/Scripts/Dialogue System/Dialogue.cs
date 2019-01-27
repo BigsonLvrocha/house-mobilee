@@ -7,30 +7,38 @@ public delegate void DEvent();
 [System.Serializable]
 public class Dialogue {
 
-	public Sentence[] sentences;
+	public List<Sentence> sentences;
 	public DEvent endDialog;
 
 	public int length {
-		get { return this.sentences.Length; }
+		get { return this.sentences.Count; }
 	}
 
 	public Dialogue(int n){
 
-		sentences = new Sentence[n];
+		sentences = new List<Sentence>();
 		for(int i = 0; i < n; i++)
 			sentences[i] = new Sentence();
 	}
 
 	public Dialogue(Sentence[] sentences){
+		this.sentences = new List<Sentence>(sentences);
+	}
+
+	public Dialogue(List<Sentence> sentences){
 		this.sentences = sentences;
 	}
 
 	public Dialogue(string[] texts){
 
-		sentences = new Sentence[texts.Length];
+		sentences = new List<Sentence>();
 		for(int i = 0; i < texts.Length; i++){
 			sentences[i] = new Sentence(texts[i]);
 		}
+	}
+
+	public void AddSentence(string text, string name=""){
+		sentences.Add(new Sentence(text, name));
 	}
 }
 
@@ -39,6 +47,7 @@ public class Sentence {
 
 	[TextArea(3, 5)]
 	public string text;
+	public string name = "";
 	
 	private float _delay; 
 	private float TIME_PER_CHAR = 0.05f; // In seconds
@@ -54,8 +63,9 @@ public class Sentence {
 	public DEvent diagEvent;
 	
 	public Sentence(){}
-	public Sentence(string text, AudioClip voice=null, DEvent diagEvent=null){
+	public Sentence(string text, string name="", AudioClip voice=null, DEvent diagEvent=null){
 		this.text = text;
+		this.name = name;
 		this.voice = voice;
 		this.diagEvent = diagEvent;
 	}
