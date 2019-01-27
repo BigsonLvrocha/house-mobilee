@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
         if (this.currentScene == "") {
-            this.LoadScene("Initial");
+            this.LoadScene("Splash");
             return;
         }
         this.LoadScene(this.currentScene);
