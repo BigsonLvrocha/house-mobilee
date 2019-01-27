@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HiddenRoom.unity
     guid: 1a0bd8a1720f6c44b814d6f4a958a7d3
+  - enabled: 1
+    path: Assets/Scenes/IronScene.unity
+    guid: 3e12834b4bffd7dd88fcf1d8ba72c8bb
   m_configObjects: {}

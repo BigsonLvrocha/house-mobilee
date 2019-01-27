@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -21,25 +22,23 @@ public class ShopItem : MonoBehaviour, IPointerDownHandler {
 	// Maybe use only mouse down?
 	public void OnPointerDown(PointerEventData eventData) {
 		Debug.Log("Mouse is down, instantiating object");
-        /*
-		// Detract cost from player's money
-		try {
-			//this.gm.money -= furniture.cost;
-		} catch (ArgumentException e){
-			// Not enought money
-			return;
-		}
-        */
+
 		// Create new
 		var newObj = GameObject.Instantiate(this.prefab);
 		
 		// Get object's furniture reference and copy this values
 		var furniture = newObj.GetComponent<Furniture>();
+		
+		// Try to detract cost from player's money
+		try { this.gm.money -= furniture.cost; } 
+		catch (ArgumentException e){ return; } // Not enought money
+
 		furniture.obj = this.GetComponent<Furniture>().obj;
 
 		// Get object's dragger
 		var dragger = newObj.GetComponent<ItemDragger>();
 		dragger.reference = this;
+		dragger.dropSpots = shop.level.dropSpots;
 
 		// Disable shop and this to remove from shop list
 		this.shop.CloseShop();

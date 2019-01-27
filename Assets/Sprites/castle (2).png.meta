@@ -26,7 +26,7 @@ TextureImporter:
     21300042: castle (2)_21
     21300044: castle (2)_22
     21300046: castle (2)_23
-    21300048: castle (2)_24
+    21300048: parede baixo
     21300050: castle (2)_25
     21300052: castle (2)_26
     21300054: castle (2)_27
@@ -126,7 +126,7 @@ TextureImporter:
     21300242: castle (2)_121
     21300244: castle (2)_122
     21300246: castle (2)_123
-    21300248: castle (2)_124
+    21300248: janela gigante 1
     21300250: castle (2)_125
     21300252: castle (2)_126
     21300254: castle (2)_127
@@ -134,7 +134,7 @@ TextureImporter:
     21300258: castle (2)_129
     21300260: castle (2)_130
     21300262: castle (2)_131
-    21300264: castle (2)_132
+    21300264: Janela gigante 2
     21300266: castle (2)_133
     21300268: castle (2)_134
     21300270: castle (2)_135
@@ -183,7 +183,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -738,7 +738,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_24
+      name: parede baixo
       rect:
         serializedVersion: 2
         x: 0
@@ -2618,7 +2618,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_124
+      name: janela gigante 1
       rect:
         serializedVersion: 2
         x: 128
@@ -2778,7 +2778,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_132
+      name: Janela gigante 2
       rect:
         serializedVersion: 2
         x: 128

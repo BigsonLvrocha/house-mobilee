@@ -45,3 +45,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 1442807597804642506, guid: 8a2825a68e32d6941afe6b5cb59678ca,
     type: 3}
+  dialogManager: {fileID: 4998153472521337303, guid: 2761ba271fdd05e0fb8f4fce9fb32210,
+    type: 3}
