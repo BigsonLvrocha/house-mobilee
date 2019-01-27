@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Initial.unity
     guid: ecae332402a538d4089e98af18bf710d
   - enabled: 1
-    path: Assets/Scenes/Garden.unity
-    guid: e159d77279414f84599466c228d97e38
-  - enabled: 1
     path: Assets/Scenes/Kitchen.unity
     guid: d9158eb988acca9489f254d132300f47
   - enabled: 1

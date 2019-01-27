@@ -50,3 +50,6 @@ TagManager:
   - name: Store
     uniqueID: 2271314115
     locked: 0
+  - name: overFurniture
+    uniqueID: 2216671605
+    locked: 0
