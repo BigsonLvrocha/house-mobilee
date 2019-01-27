@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Loader : MonoBehaviour
 {
-    public GameObject gameManager;          //GameManager prefab to instantiate.
+    public GameObject gameManager;       //GameManager prefab to instantiate.
+    public GameObject dialogManager;     // DialogManager prefab to instantiate.
     
     void Awake ()
     {
@@ -13,5 +14,6 @@ public class Loader : MonoBehaviour
             
             //Instantiate gameManager prefab
             Instantiate(gameManager);
+            Instantiate(dialogManager);
     }
 }
