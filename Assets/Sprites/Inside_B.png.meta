@@ -7,7 +7,7 @@ TextureImporter:
     21300004: Inside_B_2
     21300006: Janela_grande_cima
     21300008: Inside_B_4
-    21300010: Inside_B_5
+    21300010: quadro_azul
     21300012: Inside_B_6
     21300014: Inside_B_7
     21300016: Inside_B_8
@@ -275,7 +275,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -450,7 +450,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_B_5
+      name: quadro_azul
       rect:
         serializedVersion: 2
         x: 192
