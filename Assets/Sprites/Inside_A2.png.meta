@@ -44,7 +44,7 @@ TextureImporter:
     21300078: Inside_A2_39
     21300080: Inside_A2_40
     21300082: Inside_A2_41
-    21300084: Inside_A2_42
+    21300084: wooden tile
     21300086: Inside_A2_43
     21300088: Inside_A2_44
     21300090: Inside_A2_45
@@ -600,11 +600,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Inside_A2_42
+      name: wooden tile
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
+        y: 159
         width: 32
         height: 32
       alignment: 0
