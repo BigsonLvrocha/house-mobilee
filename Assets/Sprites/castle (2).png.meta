@@ -116,7 +116,7 @@ TextureImporter:
     21300222: castle (2)_111
     21300224: castle (2)_112
     21300226: RelogioTorreBase
-    21300228: castle (2)_114
+    21300228: Candelabro
     21300230: castle (2)_115
     21300232: castle (2)_116
     21300234: castle (2)_117
@@ -2479,15 +2479,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle (2)_114
+      name: Candelabro
       rect:
         serializedVersion: 2
         x: 64
-        y: 128
+        y: 96
         width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2554,26 +2554,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ddcfb52814427c349b0929945606204d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle (2)_122
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e059264288d821438a0a5b43f8f2a94
       vertices: []
       indices: 
       edges: []
@@ -3147,7 +3127,7 @@ TextureImporter:
         width: 32
         height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

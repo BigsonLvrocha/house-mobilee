@@ -24,8 +24,8 @@ TextureImporter:
     21300038: interior_19
     21300040: interior_20
     21300042: interior_21
-    21300044: interior_22
-    21300046: interior_23
+    21300044: Arcos
+    21300046: Escudo
     21300048: interior_24
     21300050: interior_25
     21300052: interior_26
@@ -679,7 +679,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_22
+      name: Arcos
       rect:
         serializedVersion: 2
         x: 224
@@ -699,7 +699,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: interior_23
+      name: Escudo
       rect:
         serializedVersion: 2
         x: 256
