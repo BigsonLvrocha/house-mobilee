@@ -8,9 +8,17 @@ public class CameraMan : MonoBehaviour
     public float lerp = 0.5f;
     private Vector3 dragOrigin;
     
+    public static bool paused = false;
     
     void Update()
     {
+        if(CameraMan.paused) {
+            print("Is paused");
+            return;
+        }
+
+        print("Is not paused");
+        
         if (Input.GetMouseButtonDown(0))
         {
             dragOrigin = Input.mousePosition;
